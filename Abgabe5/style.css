@@ -1,0 +1,33 @@
+body{
+  background-color: steelblue;
+  opacity:1;
+}
+div.static{
+  position: static;
+  width: 200px;
+  border: 15px solid green;
+  padding: 500px; 
+  margin: 200px; 
+}
+p, h1, table{
+  color:black;
+  font-family: 'Open Sans', sans-serif;
+}
+#h2Selektor{
+  background-color: blanchedalmond;
+}
+.Kombi1, .Kombi2{
+ background-color: blanchedalmond;
+}
+CSS[href]{
+  background-color:greenyellow;
+}
+.PseudoFunktion::first-letter, a:hover{
+  background-color: red;
+}
+.drehung {
+  transform: rotate(340deg);
+}
+h4{
+font-size: large;
+}
